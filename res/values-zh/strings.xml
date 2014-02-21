@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">RedPhone</string>
+  <string name="app_name">FreePhone</string>
   <string name="RedPhone_id_like_to_call_you_securely_using_redphone_you_can_install_redphone_from_the_play_store_s">我想邀请你使用红锋安全免费网络电话。你可以从谷歌应用商店下载安装红锋安全免费网络电话，点击此链接下载：%s</string>
   <string name="RedPhone_answering">应答中...</string>
   <string name="RedPhone_ending_call">结束通话</string>
@@ -27,14 +27,14 @@
   <string name="MicrophoneReader_microphone_failed_to_initialize_try_changing_audio_call_mode_in_settings">麦克风初始化失败。请尝试在设置中改变音频呼叫模式。</string>
   <string name="RobustAudioTrack_audiotrack_did_not_initialize">声道未初始化</string>
   <string name="AboutActivity_about_redphone">关于RedPhone</string>
-  <string name="AboutActivity_redphone_beta_s">RedPhone Beta %s</string>
+  <string name="AboutActivity_redphone_beta_s">FreePhone Beta %s</string>
   <string name="ApplicationPreferencesActivity_redphone_settings">RedPhone设置</string>
   <string name="ApplicationPreferencesActivity_updating_signaling_method">更新信令方式。</string>
   <string name="ApplicationPreferencesActivity_changing_signaling_method_this_could_take_a_second">改变信令模式，可能要一段时间，请耐心等待...</string>
   <string name="ApplicationPreferencesActivity_error_registering_with_c2dm_server">注册到C2DM服务器发生错误...</string>
   <string name="ApplicationPreferencesActivity_error_unregistering_with_c2dm_server">从C2DM服务去注册发生错误...</string>
   <string name="ApplicationPreferencesActivity_error_communicating_with_c2dm_server">和C2DM服务器通讯发生错误...</string>
-  <string name="CallMetricsInfo__metrics_collection_details">为了提高通话质量，你可以选择给Open WhisperSystems发送信息，那可以帮助我们更好的获悉RedPhone的性能。通话数据不会透露给第三方。在存储或上传到Open WhisperSystem服务器之前，所有通话测量数据都会加密。当被使能，在每个通话过程中会收集如下信息：</string>
+  <string name="CallMetricsInfo__metrics_collection_details">为了提高通话质量，你可以选择给FreePhone发送信息，那可以帮助我们更好的获悉RedPhone的性能。通话数据不会透露给第三方。在存储或上传到Open WhisperSystem服务器之前，所有通话测量数据都会加密。当被使能，在每个通话过程中会收集如下信息：</string>
   <string name="CallMetricsInfo__title">质量测量</string>
   <string name="CallMetricsInfo__device_description">设备描述</string>
   <string name="CallMetricsInfo__device_description_explanation">模型，制造商，运营商，连接类型，操作系统版本，固定的随机通用唯一标识符</string>
@@ -54,9 +54,9 @@
   <string name="CallQualityDialog__i_would_like_to_help_by_sending_performance_statistics">发送性能测量</string>
   <string name="CallQualityDialog__i_would_like_to_rate_the_quality_of_my_call_once_it_is_over">通话完成后，允许我统计通话</string>
   <string name="CallQualityDialog__provide_call_quality_feedback">提供通话质量反馈</string>
-  <string name="CallQualityDialog__redphone">RedPhone</string>
+  <string name="CallQualityDialog__redphone">FreePhone</string>
   <string name="CallQualityDialog__we_re_making_changes">我们正在改变</string>
-  <string name="CallQualityDialog__whispersystems_needs_your_help_pretext">Open WhisperSystems需要你的帮助。我们一直努力提高我们的通话质量，我们需要反馈和性能测量以改进系统。</string>
+  <string name="CallQualityDialog__whispersystems_needs_your_help_pretext">FreePhone需要你的帮助。我们一直努力提高我们的通话质量，我们需要反馈和性能测量以改进系统。</string>
   <string name="CallQualityDialog__linktext">学习更多关于数据收集</string>
   <string name="CallQualityDialog__whispersystems_needs_your_help_posttext">.⏎\n⏎\n下面的选项帮助使RedPhone变得更好。</string>
   <string name="CallQualityDialog__you_can_update_these_settings_at_any_time_through_the_general_settings_menu">通过设置菜单，你在任何时候都可以更新这些性能。</string>
@@ -119,7 +119,7 @@
   <string name="about_activity__additional_information">附加信息：</string>
   <string name="about_activity__attribution">属性：</string>
   <string name="about_activity__aboutText">有任何问题，疑问或建议，请打开whispersystems.org网站查看更多信息，或者发邮件联系 support@whispersystems.org。</string>
-  <string name="about_activity__attributionText">RedPhone链接了SpanDSP库, SpanDSP库基于LGPL.⏎\n⏎\nRedPhone uses the SPEEX Codec, which is used under the Xiph.Org variant of the BSD license: © 2002-2003, Jean-Marc Valin/Xiph.Org Foundation⏎\n⏎\nRedistribution and use of the SPEEX library in source and binary forms, with or without modification, are permitted provided that the following conditions are met:⏎\n⏎\n⇥* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.⏎\n⇥* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.⏎\n⇥* Neither the name of the Xiph.org Foundation nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.⏎\n⏎\nThe SPEEX library is provided by the copyright holders and contributors “as is” and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the foundation or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.⏎\n⏎\n⏎\nSome sound samples are licensed under the Creative Commons Sampling Plus License: http://creativecommons.org/licenses/sampling+/1.0/⏎\n⏎\nBy acclivity (http://www.freesound.org/usersViewSingle.php?id=37876):⏎\nShipsBell.wav (http://www.freesound.org/samplesViewSingle.php?id=32304)⏎\n⏎\nBy Splashdust (http://www.freesound.org/usersViewSingle.php?id=754949):⏎\nnegativebeep.wav (http://www.freesound.org/samplesViewSingle.php?id=67454)⏎\n⏎\nBy Peter_Gross (http://www.freesound.org/usersViewSingle.php?id=33429):⏎\nSonar_pings.ogg (http://www.freesound.org/samplesViewSingle.php?id=12677⏎\n⏎\nBy suonho: http://www.freesound.org/samplesViewSingle.php?id=58348: ambienta_soundtrack_moog_sweep⏎\n⏎\nBy Mike Koenig: Busy Signal</string>
+  <string name="about_activity__attributionText">RedPhone链接了SpanDSP库, SpanDSP库基于LGPL.⏎\n⏎\nFreePhone uses the SPEEX Codec, which is used under the Xiph.Org variant of the BSD license: © 2002-2003, Jean-Marc Valin/Xiph.Org Foundation⏎\n⏎\nRedistribution and use of the SPEEX library in source and binary forms, with or without modification, are permitted provided that the following conditions are met:⏎\n⏎\n⇥* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.⏎\n⇥* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.⏎\n⇥* Neither the name of the Xiph.org Foundation nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.⏎\n⏎\nThe SPEEX library is provided by the copyright holders and contributors “as is” and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the foundation or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.⏎\n⏎\n⏎\nSome sound samples are licensed under the Creative Commons Sampling Plus License: http://creativecommons.org/licenses/sampling+/1.0/⏎\n⏎\nBy acclivity (http://www.freesound.org/usersViewSingle.php?id=37876):⏎\nShipsBell.wav (http://www.freesound.org/samplesViewSingle.php?id=32304)⏎\n⏎\nBy Splashdust (http://www.freesound.org/usersViewSingle.php?id=754949):⏎\nnegativebeep.wav (http://www.freesound.org/samplesViewSingle.php?id=67454)⏎\n⏎\nBy Peter_Gross (http://www.freesound.org/usersViewSingle.php?id=33429):⏎\nSonar_pings.ogg (http://www.freesound.org/samplesViewSingle.php?id=12677⏎\n⏎\nBy suonho: http://www.freesound.org/samplesViewSingle.php?id=58348: ambienta_soundtrack_moog_sweep⏎\n⏎\nBy Mike Koenig: Busy Signal</string>
   <string name="call_controls__redphone_call">REDPHONE呼叫</string>
   <string name="call_card__redphone_call">RedPhone呼叫</string>
   <string name="create_account__register">注册</string>

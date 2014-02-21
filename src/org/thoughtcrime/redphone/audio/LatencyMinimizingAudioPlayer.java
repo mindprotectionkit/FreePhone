@@ -21,10 +21,10 @@ import android.content.Context;
 import android.os.SystemClock;
 import android.util.Log;
 
-import org.thoughtcrime.redphone.ApplicationContext;
-import org.thoughtcrime.redphone.profiling.PeriodicTimer;
-import org.thoughtcrime.redphone.ui.ApplicationPreferencesActivity;
-import org.thoughtcrime.redphone.util.LeakyIntegrator;
+import com.mindprotectionkit.freephone.ApplicationContext;
+import com.mindprotectionkit.freephone.profiling.PeriodicTimer;
+import com.mindprotectionkit.freephone.ui.ApplicationPreferencesActivity;
+import com.mindprotectionkit.freephone.util.LeakyIntegrator;
 
 /**
  * LatencyMinimizingAudioPlayer transfers audio data from an audio source to and audio sink

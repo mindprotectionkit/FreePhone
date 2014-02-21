@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">RedPhone</string>
+  <string name="app_name">FreePhone</string>
   <string name="RedPhone_id_like_to_call_you_securely_using_redphone_you_can_install_redphone_from_the_play_store_s">我想用RedPhone加密電話軟體與你通話，你可以到Google play去下載安裝，請點這裡下載:%s</string>
   <string name="RedPhone_answering">應答中...</string>
   <string name="RedPhone_ending_call">結束通話</string>
@@ -19,7 +19,7 @@
   <string name="RedPhone_login_failed_exclamation">登錄失敗！</string>
   <string name="RedPhone_message_from_the_server">來自服務器的消息</string>
   <string name="RedPhone_number_not_registered_with_redphone_exclamation">您的手機號碼未注冊！</string>
-  <string name="RedPhone_the_number_you_dialed_is_not_registered_with_redphone_both_parties_of_a_call_need_to_have_redphone_installed">您撥的號碼未尚未使用 RedPhone。通話雙方都需要安裝 RedPhone，才能進行安全通話。您想要發送 RedPhone 的安裝連接給對方嗎？</string>
+  <string name="RedPhone_the_number_you_dialed_is_not_registered_with_redphone_both_parties_of_a_call_need_to_have_redphone_installed">您撥的號碼未尚未使用 FreePhone。通話雙方都需要安裝 FreePhone，才能進行安全通話。您想要發送 FreePhone 的安裝連接給對方嗎？</string>
   <string name="RedPhone_no_thanks_exclamation">不，謝謝！</string>
   <string name="RedPhone_yes_exclamation">是，我要發送。</string>
   <string name="RedPhone_codec_failed_to_initialize">編解碼初始化失敗</string>
@@ -27,14 +27,14 @@
   <string name="MicrophoneReader_microphone_failed_to_initialize_try_changing_audio_call_mode_in_settings">麥克風初始化失敗。請嘗試在設置中改變音頻呼叫模式。</string>
   <string name="RobustAudioTrack_audiotrack_did_not_initialize">聲道未初始化</string>
   <string name="AboutActivity_about_redphone">關於RedPhone</string>
-  <string name="AboutActivity_redphone_beta_s">RedPhone Beta %s</string>
+  <string name="AboutActivity_redphone_beta_s">FreePhone Beta %s</string>
   <string name="ApplicationPreferencesActivity_redphone_settings">RedPhone設置</string>
   <string name="ApplicationPreferencesActivity_updating_signaling_method">更新信令方式。</string>
   <string name="ApplicationPreferencesActivity_changing_signaling_method_this_could_take_a_second">改變信令模式，可能要一段時間，請耐心等待...</string>
   <string name="ApplicationPreferencesActivity_error_registering_with_c2dm_server">注冊到C2DM服務器發生錯誤...</string>
   <string name="ApplicationPreferencesActivity_error_unregistering_with_c2dm_server">從C2DM服務去注冊發生錯誤...</string>
   <string name="ApplicationPreferencesActivity_error_communicating_with_c2dm_server">和C2DM服務器通訊發生錯誤...</string>
-  <string name="CallMetricsInfo__metrics_collection_details">為了提高通話質量，你可以選擇給Open WhisperSystems發送信息，那可以幫助我們更好的獲悉RedPhone的性能。通話數據不會透露給第三方。在存儲或上傳到Open WhisperSystem服務器之前，所有通話測量數據都會加密。當被使能，在每個通話過程中會收集如下信息：</string>
+  <string name="CallMetricsInfo__metrics_collection_details">為了提高通話質量，你可以選擇給FreePhone發送信息，那可以幫助我們更好的獲悉RedPhone的性能。通話數據不會透露給第三方。在存儲或上傳到Open WhisperSystem服務器之前，所有通話測量數據都會加密。當被使能，在每個通話過程中會收集如下信息：</string>
   <string name="CallMetricsInfo__title">質量測量</string>
   <string name="CallMetricsInfo__device_description">設備描述</string>
   <string name="CallMetricsInfo__device_description_explanation">模型，制造商，運營商，連接類型，操作系統版本，固定的隨機通用唯一標識符</string>
@@ -54,9 +54,9 @@
   <string name="CallQualityDialog__i_would_like_to_help_by_sending_performance_statistics">發送性能測量</string>
   <string name="CallQualityDialog__i_would_like_to_rate_the_quality_of_my_call_once_it_is_over">通話完成後，允許我統計通話</string>
   <string name="CallQualityDialog__provide_call_quality_feedback">提供通話質量反饋</string>
-  <string name="CallQualityDialog__redphone">RedPhone</string>
+  <string name="CallQualityDialog__redphone">FreePhone</string>
   <string name="CallQualityDialog__we_re_making_changes">我們正在改變</string>
-  <string name="CallQualityDialog__whispersystems_needs_your_help_pretext">Open WhisperSystems需要你的幫助。我們一直努力提高我們的通話質量，我們需要反饋和性能測量以改進系統。</string>
+  <string name="CallQualityDialog__whispersystems_needs_your_help_pretext">FreePhone需要你的幫助。我們一直努力提高我們的通話質量，我們需要反饋和性能測量以改進系統。</string>
   <string name="CallQualityDialog__linktext">學習更多關於數據收集</string>
   <string name="CallQualityDialog__whispersystems_needs_your_help_posttext">.⏎\n⏎\n下面的選項幫助使RedPhone變得更好。</string>
   <string name="CallQualityDialog__you_can_update_these_settings_at_any_time_through_the_general_settings_menu">通過設置菜單，你在任何時候都可以更新這些性能。</string>
@@ -79,7 +79,7 @@
   <string name="CreateAccountActivity_we_will_now_verify_that_the_following_number_is_associated">我們將驗證下面的號碼是否和這個手機關聯：%s。這個號碼正確嗎？或你要修改號碼嗎？</string>
   <string name="CreateAccountActivity_continue">繼續</string>
   <string name="CreateAccountActivity_edit">編輯</string>
-  <string name="NotificationBarManager_redphone_call_in_progress">RedPhone 通話進行中</string>
+  <string name="NotificationBarManager_redphone_call_in_progress">FreePhone 通話進行中</string>
   <string name="NotificationBarManager_missed_redphone_call_from_s">未接來電，來自 %s</string>
   <string name="NotificationBarManager_missed_redphone_call">未接來電</string>
   <string name="QualityReporting_would_you_like_to_send_diagnostic_information_about_this_call_to_whisper_systems">你想發送這個呼叫失敗的診斷信息給Whisper Systems嗎？</string>
@@ -119,7 +119,7 @@
   <string name="about_activity__additional_information">附加信息：</string>
   <string name="about_activity__attribution">屬性：</string>
   <string name="about_activity__aboutText">有任何問題，疑問或建議，請打開whispersystems.org網站查看更多信息，或者發郵件聯系 support@whispersystems.org。</string>
-  <string name="about_activity__attributionText">RedPhone鏈接了SpanDSP庫, SpanDSP庫基於LGPL.⏎\n⏎\nRedPhone uses the SPEEX Codec, which is used under the Xiph.Org variant of the BSD license: © 2002-2003, Jean-Marc Valin/Xiph.Org Foundation⏎\n⏎\nRedistribution and use of the SPEEX library in source and binary forms, with or without modification, are permitted provided that the following conditions are met:⏎\n⏎\n⇥* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.⏎\n⇥* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.⏎\n⇥* Neither the name of the Xiph.org Foundation nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.⏎\n⏎\nThe SPEEX library is provided by the copyright holders and contributors “as is” and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the foundation or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.⏎\n⏎\n⏎\nSome sound samples are licensed under the Creative Commons Sampling Plus License: http://creativecommons.org/licenses/sampling+/1.0/⏎\n⏎\nBy acclivity (http://www.freesound.org/usersViewSingle.php?id=37876):⏎\nShipsBell.wav (http://www.freesound.org/samplesViewSingle.php?id=32304)⏎\n⏎\nBy Splashdust (http://www.freesound.org/usersViewSingle.php?id=754949):⏎\nnegativebeep.wav (http://www.freesound.org/samplesViewSingle.php?id=67454)⏎\n⏎\nBy Peter_Gross (http://www.freesound.org/usersViewSingle.php?id=33429):⏎\nSonar_pings.ogg (http://www.freesound.org/samplesViewSingle.php?id=12677⏎\n⏎\nBy suonho: http://www.freesound.org/samplesViewSingle.php?id=58348: ambienta_soundtrack_moog_sweep⏎\n⏎\nBy Mike Koenig: Busy Signal</string>
+  <string name="about_activity__attributionText">RedPhone鏈接了SpanDSP庫, SpanDSP庫基於LGPL.⏎\n⏎\nFreePhone uses the SPEEX Codec, which is used under the Xiph.Org variant of the BSD license: © 2002-2003, Jean-Marc Valin/Xiph.Org Foundation⏎\n⏎\nRedistribution and use of the SPEEX library in source and binary forms, with or without modification, are permitted provided that the following conditions are met:⏎\n⏎\n⇥* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.⏎\n⇥* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.⏎\n⇥* Neither the name of the Xiph.org Foundation nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.⏎\n⏎\nThe SPEEX library is provided by the copyright holders and contributors “as is” and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the foundation or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.⏎\n⏎\n⏎\nSome sound samples are licensed under the Creative Commons Sampling Plus License: http://creativecommons.org/licenses/sampling+/1.0/⏎\n⏎\nBy acclivity (http://www.freesound.org/usersViewSingle.php?id=37876):⏎\nShipsBell.wav (http://www.freesound.org/samplesViewSingle.php?id=32304)⏎\n⏎\nBy Splashdust (http://www.freesound.org/usersViewSingle.php?id=754949):⏎\nnegativebeep.wav (http://www.freesound.org/samplesViewSingle.php?id=67454)⏎\n⏎\nBy Peter_Gross (http://www.freesound.org/usersViewSingle.php?id=33429):⏎\nSonar_pings.ogg (http://www.freesound.org/samplesViewSingle.php?id=12677⏎\n⏎\nBy suonho: http://www.freesound.org/samplesViewSingle.php?id=58348: ambienta_soundtrack_moog_sweep⏎\n⏎\nBy Mike Koenig: Busy Signal</string>
   <string name="call_controls__redphone_call">REDPHONE來電</string>
   <string name="call_card__redphone_call">RedPhone來電</string>
   <string name="create_account__register">注冊</string>
@@ -169,7 +169,7 @@
   <string name="registration_progress__edit_number">編輯號碼</string>
   <string name="registration_progress__some_possible_problems_include">某些可能的問題：</string>
   <string name="registration_progress__sms_interceptors">簡訊攔截器。</string>
-  <string name="registration_progress__some_third_party_text_messaging_clients_explanation">某些第三方簡訊軟體（如Handcent或GoSMS）可能攔截所有簡訊。請檢查您是否有收到「RedPhone is trying to verify you」開頭的簡訊。若有，您需要設定簡訊軟體不要攔截訊息。</string>
+  <string name="registration_progress__some_third_party_text_messaging_clients_explanation">某些第三方簡訊軟體（如Handcent或GoSMS）可能攔截所有簡訊。請檢查您是否有收到「FreePhone is trying to verify you」開頭的簡訊。若有，您需要設定簡訊軟體不要攔截訊息。</string>
   <string name="registration_progress__incorrect_number">錯誤號碼</string>
   <string name="registration_progress__please_check_to_make_sure_you_entered_your_number_correctly">請檢查，確認你輸入的號碼是否正確？確認你的號碼格式是否正確？</string>
   <string name="registration_progress__old_versions_of_google_voice">老版本谷歌Voice。</string>
@@ -180,7 +180,7 @@
   <string name="registration_progress__your_device_needs_network_connectivity_explanation">你的設備需要網絡連接，才能使用RedPhone打電話。請檢查，確保你的設備已經聯網。</string>
   <string name="registration_progress__restrictive_firewall">限制防火牆。</string>
   <string name="registration_progress__if_you_are_connected_via_wifi_explanation">如何你通過wifi聯網，可能有防火牆阻止你連接到RedPhone服務器的信令端口。嘗試使用其他網絡或使用手機上網（移動GPRS，電信3G和聯通3G）。</string>
-  <string name="registration_progress__redphone_will_now_automatically_verify_your_number_with_a_confirmation_sms_message">RedPhone 將自動通過簡訊驗證你的手機號碼。</string>
+  <string name="registration_progress__redphone_will_now_automatically_verify_your_number_with_a_confirmation_sms_message">FreePhone 將自動通過簡訊驗證你的手機號碼。</string>
   <string name="registration_progress__registering_with_server">正在注冊到服務...</string>
   <string name="registration_progress__waiting_for_sms_verification">正在等待簡訊確認...</string>
   <string name="registration_progress__this_could_take_a_moment_please_be_patient_well_notify_you_when_verification_is_complete">可能要一段時間，請耐心等待，若驗證完成，我們會通知你。</string>

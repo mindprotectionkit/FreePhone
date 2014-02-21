@@ -25,12 +25,11 @@ import android.os.Build;
 import android.os.SystemClock;
 import android.util.Log;
 
-import org.thoughtcrime.redphone.ApplicationContext;
-import org.thoughtcrime.redphone.R;
-import org.thoughtcrime.redphone.Release;
+import com.mindprotectionkit.freephone.ApplicationContext;
+import com.mindprotectionkit.freephone.R;
+import com.mindprotectionkit.freephone.Release;
 import org.thoughtcrime.redphone.codec.AudioCodec;
-import org.thoughtcrime.redphone.ui.ApplicationPreferencesActivity;
-import org.thoughtcrime.redphone.util.Util;
+import com.mindprotectionkit.freephone.util.Util;
 
 /**
  * A robust wrapper for {@link AudioTrack}

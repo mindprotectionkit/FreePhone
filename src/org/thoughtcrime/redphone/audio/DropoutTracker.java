@@ -19,9 +19,9 @@ package org.thoughtcrime.redphone.audio;
 
 import android.os.SystemClock;
 
-import org.thoughtcrime.redphone.network.RtpAudioSender;
-import org.thoughtcrime.redphone.profiling.PacketLogger;
-import org.thoughtcrime.redphone.profiling.PeriodicTimer;
+import com.mindprotectionkit.freephone.network.RtpAudioSender;
+import com.mindprotectionkit.freephone.profiling.PacketLogger;
+import com.mindprotectionkit.freephone.profiling.PeriodicTimer;
 
 /**
  * When a network dropout occurs packet latency will increase quickly to a maximum latency before

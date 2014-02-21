@@ -1,4 +1,4 @@
-package org.thoughtcrime.redphone;
+package com.mindprotectionkit.freephone;
 
 import android.test.AndroidTestCase;
 

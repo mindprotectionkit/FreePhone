@@ -22,8 +22,8 @@ import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
 
-import org.thoughtcrime.redphone.R;
-import org.thoughtcrime.redphone.ui.ApplicationPreferencesActivity;
+import com.mindprotectionkit.freephone.R;
+import com.mindprotectionkit.freephone.ui.ApplicationPreferencesActivity;
 
 import java.io.IOException;
 

@@ -21,10 +21,10 @@ import android.content.Context;
 import android.os.Environment;
 import android.util.Log;
 
-import org.thoughtcrime.redphone.ApplicationContext;
-import org.thoughtcrime.redphone.Release;
-import org.thoughtcrime.redphone.profiling.PeriodicTimer;
-import org.thoughtcrime.redphone.util.Util;
+import com.mindprotectionkit.freephone.ApplicationContext;
+import com.mindprotectionkit.freephone.Release;
+import com.mindprotectionkit.freephone.profiling.PeriodicTimer;
+import com.mindprotectionkit.freephone.util.Util;
 
 import java.io.BufferedOutputStream;
 import java.io.FileNotFoundException;

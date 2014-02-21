@@ -20,7 +20,7 @@ package org.thoughtcrime.redphone.audio;
 import android.os.SystemClock;
 import android.util.Log;
 
-import org.thoughtcrime.redphone.Release;
+import com.mindprotectionkit.freephone.Release;
 
 import java.text.DecimalFormat;
 

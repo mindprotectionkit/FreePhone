@@ -17,10 +17,10 @@
 
 package org.thoughtcrime.redphone.audio;
 
-import org.thoughtcrime.redphone.ApplicationContext;
-import org.thoughtcrime.redphone.profiling.PacketLogger;
-import org.thoughtcrime.redphone.ui.ApplicationPreferencesActivity;
-import org.thoughtcrime.redphone.util.LeakyIntegrator;
+import com.mindprotectionkit.freephone.ApplicationContext;
+import com.mindprotectionkit.freephone.profiling.PacketLogger;
+import com.mindprotectionkit.freephone.ui.ApplicationPreferencesActivity;
+import com.mindprotectionkit.freephone.util.LeakyIntegrator;
 
 /**
  * Selects the number of packets to buffer to avoid underruns while minimizing latency.
