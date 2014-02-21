@@ -18,8 +18,8 @@
 package org.thoughtcrime.redphone.audio;
 
 import org.thoughtcrime.redphone.codec.AudioCodec;
-import org.thoughtcrime.redphone.monitor.CallMonitor;
-import org.thoughtcrime.redphone.profiling.PacketLogger;
+import com.mindprotectionkit.freephone.monitor.CallMonitor;
+import com.mindprotectionkit.freephone.profiling.PacketLogger;
 
 import java.util.List;
 

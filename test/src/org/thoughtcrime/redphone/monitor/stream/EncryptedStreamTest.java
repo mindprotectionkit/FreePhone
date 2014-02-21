@@ -15,11 +15,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.thoughtcrime.redphone.monitor.stream;
+package com.mindprotectionkit.freephone.monitor.stream;
 
 import android.content.res.Resources;
 import android.test.AndroidTestCase;
-import org.thoughtcrime.redphone.tests.R;
+import com.mindprotectionkit.freephone.tests.R;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

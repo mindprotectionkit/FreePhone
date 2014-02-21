@@ -1,4 +1,4 @@
-package org.thoughtcrime.redphone.crypto;
+package com.mindprotectionkit.freephone.crypto;
 
 import android.test.AndroidTestCase;
 

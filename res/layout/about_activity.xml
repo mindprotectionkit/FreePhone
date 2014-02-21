@@ -26,7 +26,7 @@
 
         <TextView android:layout_width="fill_parent"
                   android:layout_height="fill_parent"
-                  android:text="@string/about_activity__aboutText"/>
+                  android:text="@string/about_activity__aboutGithub"/>
 
         <TextView android:layout_width="fill_parent"
                   android:layout_height="wrap_content"
@@ -35,7 +35,9 @@
                   android:layout_marginTop="20dip"
                   android:text="@string/about_activity__attribution"/>
 
-        <TextView android:layout_width="fill_parent"
+        <TextView
+            android:id="@+id/attributionText"
+                  android:layout_width="fill_parent"
                   android:layout_height="fill_parent"
                   android:text="@string/about_activity__attributionText"/>
 

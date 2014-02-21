@@ -124,7 +124,7 @@ public class G711AudioCodec extends AudioCodec {
   }
 
   public int encodedPacketSize() {
-    return AudioCodec.SAMPLES_PER_FRAME;
+    return SAMPLES_PER_FRAME;
   }
 }
 

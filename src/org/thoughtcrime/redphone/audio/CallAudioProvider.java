@@ -20,9 +20,9 @@ package org.thoughtcrime.redphone.audio;
 import android.util.Log;
 
 import org.thoughtcrime.redphone.codec.AudioCodec;
-import org.thoughtcrime.redphone.monitor.CallMonitor;
-import org.thoughtcrime.redphone.profiling.PacketLogger;
-import org.thoughtcrime.redphone.profiling.StatisticsWatcher;
+import com.mindprotectionkit.freephone.monitor.CallMonitor;
+import com.mindprotectionkit.freephone.profiling.PacketLogger;
+import com.mindprotectionkit.freephone.profiling.StatisticsWatcher;
 
 import java.util.TreeMap;
 

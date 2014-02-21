@@ -22,14 +22,14 @@ import android.os.SystemClock;
 import android.util.Log;
 
 import org.thoughtcrime.redphone.codec.AudioCodec;
-import org.thoughtcrime.redphone.crypto.SecureRtpSocket;
-import org.thoughtcrime.redphone.monitor.CallMonitor;
-import org.thoughtcrime.redphone.network.RtpAudioReader;
-import org.thoughtcrime.redphone.network.RtpAudioSender;
-import org.thoughtcrime.redphone.profiling.PacketLogger;
-import org.thoughtcrime.redphone.profiling.StatisticsWatcher;
-import org.thoughtcrime.redphone.profiling.TimeProfiler;
-import org.thoughtcrime.redphone.ui.ApplicationPreferencesActivity;
+import com.mindprotectionkit.freephone.crypto.SecureRtpSocket;
+import com.mindprotectionkit.freephone.monitor.CallMonitor;
+import com.mindprotectionkit.freephone.network.RtpAudioReader;
+import com.mindprotectionkit.freephone.network.RtpAudioSender;
+import com.mindprotectionkit.freephone.profiling.PacketLogger;
+import com.mindprotectionkit.freephone.profiling.StatisticsWatcher;
+import com.mindprotectionkit.freephone.profiling.TimeProfiler;
+import com.mindprotectionkit.freephone.ui.ApplicationPreferencesActivity;
 
 import java.io.IOException;
 import java.util.LinkedList;
@@ -38,11 +38,11 @@ import java.util.NoSuchElementException;
 /**
  * CallAudioManager controls the reading and writing of audio data from between the network stack
  * and the device's audio subsystem.  Audio data is read from the
- * {@link org.thoughtcrime.redphone.network.RtpAudioReader}, queued, and then sent
+ * {@link com.mindprotectionkit.freephone.network.RtpAudioReader}, queued, and then sent
  * to the {@link CallAudioStream} where it is decoded and written to the hardware audio buffer.
  *
  * Raw audio from the microphone input buffer is encoded by the {@link MicrophoneReader}, then
- * queued before being sent to the {@link org.thoughtcrime.redphone.network.RtpAudioSender}.
+ * queued before being sent to the {@link com.mindprotectionkit.freephone.network.RtpAudioSender}.
  *
  * @author Stuart O. Anderson
  */
